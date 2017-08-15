@@ -9,7 +9,7 @@ public class Arabia implements Interface {
 				if(inputCheck.equals(ERR_MSG_1)) {
 					return ERR_MSG_1;
 				}
-				while(ArabiaNum != 0) { 
+				while(ArabiaNum != 0) {
 				if( (ROME_NUM1 <= ArabiaNum) && (ArabiaNum < ROME_NUM5)) {
 					if((ArabiaNum + ROME_NUM1) == ROME_NUM5) {
 						result = result + ROME1;
@@ -33,9 +33,9 @@ public class Arabia implements Interface {
 				}
 				return result;
 			}
-		
+
 		public String checkInputNumber(int input) {
-		
+
 			if(input < START_NUM || END_NUM < input) {
 				return ERR_MSG_1;
 			}
