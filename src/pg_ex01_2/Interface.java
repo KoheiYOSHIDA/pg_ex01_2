@@ -14,7 +14,7 @@ public interface Interface {
 	final int START_NUM = 1;
 	final int END_NUM = 20;
 
-	final String INPUT_MSG_1 = "1から20までの値を入力してください :";
 	final String ERR_MSG_1 = "変換できません";
+	final String SUCCESS_MSG_1 = "SUCCESS";
 
 }
